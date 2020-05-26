@@ -1,0 +1,57 @@
+.titulo{
+	text-align: center;
+	font-family: century gothic, arial, helvetica, sans-serif;
+}
+#mesa{
+	width: 338px;
+	height: 368px;
+	position: absolute;
+	left:50%;
+	margin-left: -155px;
+	top:50%;
+	margin-top:-155px;
+	background: #ddd;
+	padding: 5px;
+	border-radius: 5px;
+}
+.boton{
+	width: 100px;
+	height: 100px;
+	margin:5px;
+	background:#999;
+	color:#fff;
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	border-radius: 5px;
+}
+
+.boton p{
+	display: block;
+	width: 100px;
+	height: 100px;
+	top:0px;
+	left:0px;
+	line-height: 100px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic, arial, helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#reset{
+	text-align: center;
+	font-family: century gothic, arial, helvetica, sans-serif;
+	height: 40px;
+	line-height: 40px;
+	clear: both;
+
+}
+
+#fila1, #fila2, #fila3{
+	clear: both;
+	overflow: hidden;
+}
